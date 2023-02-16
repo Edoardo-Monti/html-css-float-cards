@@ -68,8 +68,9 @@ img{
 
 .info{
     color: white;
-    padding: 10px 110px;
+    margin: 10px;
     line-height: 25px;
+    padding-left: 110px;
 }
 
 

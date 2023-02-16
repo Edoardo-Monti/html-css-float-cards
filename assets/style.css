@@ -9,14 +9,19 @@
     max-width: 80%;
     margin: auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 
 h1{
     padding: 50px;
     color: pink;
-    font-family: 'Fredoka One'
+    font-size: 30px;
     
+}
+
+h3, h1{
+    font-family: 'Fredoka One';
 }
 
 /* Inizio Struttura float */
@@ -26,42 +31,49 @@ h1{
     display: table;
 }
 
-.container-a, .container-b{
+.container{
     max-width: 80%;
     margin: auto;
     padding-top: 20px;
 }
 
-.container-1{
+/* Allineamento delle card nel container */
+.card{
     background-color: black;
     float: left;
-    height: 100px;
+    height: 100px; 
     width: 30%;
-    margin-right: 2.5%;
-
+    box-shadow: 0px 0px 10px black;
 }
 
-.container-2{
-    background-color: black;
-    float: left;
-    height: 100px;
-    width: 30%;
+/* Spaziatura delle card */
+.mr{   
+    margin-right: 2.5%;
+}
+
+.m{    
     margin-left: 2.5%;
     margin-right: 2.5%;
-
-
 }
 
-.container-3{
-    background-color: black;
-    float: right;
-    height: 100px;
-    width: 30%;
+.ml{
     margin-left: 2.5%;
-
-
 }
 
+/* Collocamento img e scritte  */
 img{
-    height: 100px;
+    height: 100px;  
+    float: left;
+}
+
+.info{
+    color: white;
+    padding: 10px 110px;
+    line-height: 25px;
+}
+
+
+a{
+    color: rgb(24, 223, 223);
+    text-decoration: none;
 }

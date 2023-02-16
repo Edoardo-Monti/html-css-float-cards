@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    padding: 50px;
+    font-family: 'Fredoka One'
+    
+}

@@ -8,11 +8,53 @@
     max-width: 80%;
     margin: auto;
     text-align: center;
-    padding: 20px;
 }
 
 h1{
     padding: 50px;
+    color: pink;
     font-family: 'Fredoka One'
     
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.container-a, .container-b{
+    max-width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.container-1{
+    background-color: black;
+    float: left;
+    height: 50px;
+    width: 30%;
+    margin-right: 2.5%;
+
+}
+
+.container-2{
+    background-color: black;
+    float: left;
+    height: 50px;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+
+}
+
+.container-3{
+    background-color: black;
+    float: right;
+    height: 50px;
+    width: 30%;
+    margin-left: 2.5%;
+
+
 }

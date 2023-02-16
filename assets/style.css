@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+/* Titolo e testo */
 .intro{
     max-width: 80%;
     margin: auto;
     text-align: center;
 }
+
 
 h1{
     padding: 50px;
@@ -17,6 +19,7 @@ h1{
     
 }
 
+/* Inizio Struttura float */
 .clearfix::after{
     content: '';
     clear: both;
@@ -32,7 +35,7 @@ h1{
 .container-1{
     background-color: black;
     float: left;
-    height: 50px;
+    height: 100px;
     width: 30%;
     margin-right: 2.5%;
 
@@ -41,7 +44,7 @@ h1{
 .container-2{
     background-color: black;
     float: left;
-    height: 50px;
+    height: 100px;
     width: 30%;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -52,9 +55,13 @@ h1{
 .container-3{
     background-color: black;
     float: right;
-    height: 50px;
+    height: 100px;
     width: 30%;
     margin-left: 2.5%;
 
 
+}
+
+img{
+    height: 100px;
 }
